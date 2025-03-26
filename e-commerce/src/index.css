@@ -1,0 +1,444 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+
+  /* font-weight: weight;
+  font-style: normal; */
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  background: #f5f0f0;
+  color: rbga(36, 36, 36, 1);
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important;
+
+}
+
+.btn-org {
+  background: #ff5252 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding: 7px 20px;
+
+}
+
+.btn-org:hover {
+  background-color: #121212 !important;
+}
+
+.btn-org.btn-border {
+  background: none !important;
+  color: #ff5252 !important;
+  border: 1px solid #ff5252 !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding: 7px 20px;
+
+}
+
+.btn-org.btn-border:hover {
+  background-color: #121212 !important;
+  color: white !important;
+  border: 1px solid #ff5252 !important;
+}
+
+.btn-sm {
+  font-size: 10px !important;
+  padding: 4px 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5252;
+}
+
+/* .categorycollapsewebkit ::-webkit-scrollbar-thumb 
+{
+  background: #ff5252;
+} */
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+.link:hover {
+  color: #ff5252;
+}
+
+nav ul button {
+  text-transform: capitalize !important;
+
+
+}
+
+.sliderhome {
+  overflow: inherit !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px !important;
+  min-width: 25px;
+  box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 12px !important;
+  color: black;
+}
+
+
+
+.CategorySlider {
+  overflow: inherit !important;
+}
+
+.CategorySlider .swiper-button-prev,
+.CategorySlider .swiper-button-next {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+}
+
+
+
+.CategorySlider .swiper-button-prev:hover,
+.CategorySlider .swiper-button-next:hover {
+  background: #ff5252 !important;
+}
+
+.CategorySlider .swiper-button-prev {
+  left: 0px !important;
+}
+
+.CategorySlider .swiper-button-next {
+  right: 0px !important;
+}
+
+.CategorySlider .swiper-button-prev:hover,
+.CategorySlider .swiper-button-next:hover {
+  background: #ff5252 !important;
+}
+
+.CategorySlider .item:hover img {
+  transform: scale(1.1);
+}
+
+.smlbtn .swiper-button-prev,
+.smlbtn .swiper-button-next {
+  width: 10px !important;
+  height: 20px !important;
+  min-width: 20px !important;
+  top: 55% !important;
+}
+
+.smlbtn .swiper-button-prev:hover,
+.smlbtn .swiper-button-next:hover {
+  background: #ff5252 !important;
+
+}
+
+.MuiTabs-indicator {
+  background-color: #ff5252 !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #ff5252 !important;
+}
+
+.productSlider .swiper-wrapper {
+  padding: 15px;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+footer form input::placeholder {
+  font-size: 14px;
+}
+
+.MuiFormControlLabel-label {
+  font-size: 11px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff5252 !important;
+}
+
+.HomeSliderv2 .swiper-slide-active .info {
+  right: 0px !important;
+  opacity: 1;
+}
+
+.HomeSliderv2 .swiper-slide-active .info h4 {
+  right: 0px !important;
+  opacity: 1;
+}
+
+.HomeSliderv2 .swiper-slide-active .info h2 {
+  right: 0px !important;
+  opacity: 1;
+}
+
+.HomeSliderv2 .swiper-slide-active .info h3 {
+  right: 0px !important;
+  opacity: 1;
+}
+
+.HomeSliderv2 .swiper-slide-active .info .btn_ {
+  bottom: 0px !important;
+  opacity: 1;
+}
+
+.HomeSliderv2 .info h4 {
+  transition-duration: 1s;
+}
+
+.HomeSliderv2 .info h2 {
+  transition-duration: 1.3s;
+}
+
+.HomeSliderv2 .info h3 {
+  transition-duration: 1.4s;
+}
+
+.HomeSliderv2 .info .btn_ {
+  transition-duration: 1.3s;
+}
+
+.HomeSliderv2 .swiper-button-prev:hover,
+.HomeSliderv2 .swiper-button-next:hover {
+  background: #ff5252 !important;
+}
+
+
+.MuiCheckbox-root {
+  padding: 6px !important;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+.itemviewaction button.active svg {
+  color: #ff5252 !important;
+  opacity: 1;
+}
+
+.Mui-selected.MuiPaginationItem-page {
+  background: #ff5252 !important;
+  color: white !important;
+}
+
+.zoomproductsliderthumbs .swiper-slide {
+  height: 150px !important;
+}
+
+.zoomproductsliderthumbs .swiper-button-next {
+  bottom: 0px !important;
+  right: inherit !important;
+  top: inherit !important;
+  width: 100% !important;
+  height: 30px !important;
+  border-radius: 0px;
+}
+
+.zoomproductsliderthumbs .swiper-wrapper {
+  padding-top: 30px !important;
+  /* padding-bottom: 30px !important; */
+}
+
+.zoomproductsliderthumbs .swiper-button-prev {
+  top: 20px !important;
+  left: inherit !important;
+  bottom: inherit !important;
+  width: 100% !important;
+  height: 30px !important;
+  border-radius: 0px;
+
+}
+
+/* .zoomproductsliderthumbs .swiper-slide {
+  height: 100px !important;
+} */
+
+.zoomproductsliderthumbs .swiper-button-next::after {
+  transform: rotate(90deg);
+}
+
+.zoomproductsliderthumbs .swiper-button-prev::after {
+  transform: rotate(90deg);
+}
+
+
+
+.zoomproductsliderthumbs .swiper-button-prev:hover {
+  background: #ff5252 !important;
+
+
+}
+
+.zoomproductsliderthumbs .swiper-button-next:hover {
+
+  background: #ff5252 !important;
+
+}
+
+.zoomproductsliderthumbs .swiper-button-next::after {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.zoomproductsliderthumbs .swiper-button-prev::after {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.zoomproductsliderthumbs .swiper-button-next::after:hover {
+  color: #fff !important;
+
+}
+
+.zoomproductsliderthumbs .swiper-button-prev::after:hover {
+  color: #fff !important;
+
+}
+
+.productcontain .actions button {
+  min-width: 40px !important;
+  height: 30px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+
+
+
+.reviewscroll::-webkit-scrollbar-thumb {
+  background: #f7b4b4 !important;
+}
+
+.reviewscroll::-webkit-scrollbar {
+  cursor: pointer;
+
+}
+
+
+.productDetailsModal .MuiDialogContent-root {
+  padding: 0px !important;
+}
+
+
+.shoppingcartpanel .MuiPaper-root {
+  width: 400px;
+  overflow: hidden;
+}
+
+.cartItem .MuiButtonBase-root {
+  font-size: 12px !important;
+}
+
+
+/* otpBox */
+.otpBox {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.otpBox input {
+  border: 1px solid rgb(182, 182, 182) !important;
+  outline: none !important;
+  border-radius: 4px;
+
+}
+
+.otpBox input:focus {
+  border: 1.3px solid rgb(0, 0, 0) !important;
+}
+
+.otppage .container {
+  height: 90vh;
+  display: flex;
+}
+
+
+#account-menu.MuiPaper-root {
+  width: 150px !important;
+}
+
+
+.myaccountTabs li a {
+  position: relative;
+  display: block;
+}
+
+.myaccountTabs li a:before {
+  content: '';
+  width: 3px;
+  height: 70%;
+  position: absolute;
+  top: 18%;
+  left: 0px;
+  background: #ff5252;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.myaccountTabs li a.active::before {
+  height: 100%;
+  opacity: 1;
+  top: 0px;
+}
+
+.myaccountTabs li a.active button svg {
+  color: #ff5252 !important;
+  opacity: 1 !important;
+}
