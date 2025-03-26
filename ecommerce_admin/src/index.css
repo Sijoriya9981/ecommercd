@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link:hover {
+    color: rgb(56, 221, 56) !important;
+}
+
+body {
+    font-family: "PT Serif", serif;
+}
+
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+}
+
+.DashboardBoxesSlider .swiper-button-prev::after,
+.DashboardBoxesSlider .swiper-button-next::after {
+    font-size: 20px !important;
+    font-weight: 500;
+
+}
+
+.DashboardBoxesSlider .swiper-button-next,
+.DashboardBoxesSlider .swiper-button-prev {
+    width: 25px !important;
+    height: 40px !important;
+    min-width: 25px !important;
+
+    color: rgb(0, 0, 0);
+
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: #ccc !important;
+}
+
+.btn-blue {
+    background: #3872fa !important;
+    color: white !important;
+
+}
+
+.btn-green {
+    background: #45d532 !important;
+    color: white !important;
+
+}
+
+.btn-sm {
+    padding: 5px 8px !important;
+    font-size: 12px !important;
+}
+
+.btn-blue:hover {
+    background: #3067E5;
+}
+
+th.MuiTableCell-root {
+    @apply bg-[#f1f1f1] py-1
+}
+
+a.active button {
+    background: #e4e4e4 !important;
+}
+
+.MuiButton-icon .facebook svg {
+    font-size: 27px !important;
+}
+
+.MuiButton-icon svg {
+    font-size: 20px !important;
+}
+
+.css-rizt0-MuiTypography-root {
+    font-size: 16px !important;
+}
+
+.MuiAppBar-colorPrimary {
+    background: #f1f1f1 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+.MuiSelect-select {
+    background: #fff !important;
+}
+
+.otpBox {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.otpBox input {
+    border: 1px solid rgb(182, 182, 182) !important;
+    outline: none !important;
+    border-radius: 4px;
+
+}
+
+.otpBox input:focus {
+    border: 1.3px solid rgb(0, 0, 0) !important;
+}
+
+
+
+.MuiTableBody-root tr:nth-child(even) {
+    @apply bg-gray-100
+}
